@@ -12,6 +12,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     onClick={() => handleClick(id)}
   >
     <img 
+    //  eslint-disable no-trailing-spaces
       src={imgUrl}
       alt={title}
       className="absolute w-full h-full object-cover rounded-[24px]"
